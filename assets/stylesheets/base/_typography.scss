@@ -1,0 +1,94 @@
+// =============================================================================
+// TYPOGRAPHY
+// =============================================================================
+
+$font-family--body: 'Whitney';
+$font-family--titles: 'Brezel Grotesk TRIAL', 'Whitney';
+$font-family--subtitles: 'Tungsten';
+
+
+// BODY
+// -----------------------------------------------------------------------------
+
+body {
+  margin: 0;
+  font-family: $font-family--body;
+  color: #555;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    color: $color--accent;
+  }
+}
+
+// HEADING
+// -----------------------------------------------------------------------------
+
+h1 {
+  font-family: $font-family--titles;
+  font-weight: normal;
+  font-size: 2.5em;
+  line-height: 1em;
+  margin: 0;
+}
+
+h2 {
+  font-family: $font-family--subtitles;
+  font-size: 1.75em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h3 {
+  font-family: $font-family--titles;
+  font-weight: 400;
+  font-size: 1.25em;
+  color: $color--accent;
+  margin: 0;
+
+  &:not(:first-child) {
+    margin-top: 2.5em;
+  }
+}
+
+
+// PARAGRAPHS
+// -----------------------------------------------------------------------------
+
+p {
+  line-height: 1.5em;
+  font-size: 1.125em;
+}
+
+// Lists
+// -----------------------------------------------------------------------------
+
+ul, ol {
+  line-height: 1.5em;
+  font-size: 1.125em;
+}
+
+// BLOCKQUOTES
+// -----------------------------------------------------------------------------
+
+blockquote {
+  position: relative;
+  margin: 0;
+  padding-left: 4em;
+  font-style: italic;
+  color: #777;
+}
+
+blockquote:before {
+  content: "“";
+  font-size: 5em;
+  position: absolute;
+  left: 0;
+  line-height: .8;
+  color: rgba(#000, .25);
+  font-style: normal;
+}

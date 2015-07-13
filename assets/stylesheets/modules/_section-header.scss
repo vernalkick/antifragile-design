@@ -1,0 +1,38 @@
+// =============================================================================
+// SECTION HEADER
+// =============================================================================
+
+.section-header {
+  background: $color--accent;
+  padding: 6em 0 3em;
+  position: relative;
+  overflow: hidden;
+}
+
+.section-header__subtitle {
+  color: rgba(#000, .5);
+}
+
+.section-header__title {
+  color: #fff;
+}
+
+.section-header__step-number {
+  font-family: $font-family--subtitles;
+  font-size: 22em;
+  position: absolute;
+  bottom: -6rem;
+  right: 10%;
+  line-height: .8;
+  color: rgba(#000, .15);
+  font-weight: 500;
+}
+
+
+.section-header--conclusion {
+  background: #444;
+}
+
+.section-header--conclusion .section-header__subtitle {
+  color: $color--accent;
+}

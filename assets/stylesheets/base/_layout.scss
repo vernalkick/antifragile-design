@@ -1,0 +1,41 @@
+// =============================================================================
+// LAYOUT
+// =============================================================================
+
+.wrap {
+  padding: 0 1.5em;
+  max-width: 600px;
+  position: relative;
+
+  @include media(tablet-up) {
+    padding: 0 3em;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+@include media(desktop) {
+  .page {
+    display: flex;
+    min-height: 100%;
+  }
+
+  .header {
+    width: 40%;
+  }
+
+  .main {
+    flex-grow: 1;
+  }
+}
+

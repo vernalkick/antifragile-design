@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800px" height="278px" viewBox="0 0 800 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(0.000000, 53.000000)" font-weight="313">
+                <text font-family="Tungsten" font-size="124" fill="#58CA7B">
+                    <tspan x="0" y="99">01/02/15</tspan>
+                </text>
+                <text font-family="Whitney" font-size="30" fill="#797979">
+                    <tspan x="9" y="149">MM</tspan>
+                </text>
+                <text font-family="Whitney" font-size="30" fill="#797979">
+                    <tspan x="117" y="149">DD</tspan>
+                </text>
+                <text font-family="Whitney" font-size="22" fill="#B7B7B7">
+                    <tspan x="41" y="197">January 2nd, 2015</tspan>
+                </text>
+                <text font-family="Whitney" font-size="30" fill="#797979">
+                    <tspan x="219" y="149">YY</tspan>
+                </text>
+            </g>
+            <g transform="translate(524.000000, 53.000000)" font-weight="313">
+                <text font-family="Tungsten" font-size="124" fill="#58CA7B">
+                    <tspan x="0" y="99">01/02/15</tspan>
+                </text>
+                <text font-family="Whitney" font-size="30" fill="#797979">
+                    <tspan x="16" y="149">DD</tspan>
+                </text>
+                <text font-family="Whitney" font-size="30" fill="#797979">
+                    <tspan x="109" y="149">MM</tspan>
+                </text>
+                <text font-family="Whitney" font-size="22" fill="#B7B7B7">
+                    <tspan x="47" y="197">February 1st, 2015</tspan>
+                </text>
+                <text font-family="Whitney" font-size="30" fill="#797979">
+                    <tspan x="219" y="149">YY</tspan>
+                </text>
+            </g>
+            <path d="M399,253.500656 L399,13.4744806" stroke="#E5E5E5" stroke-linecap="square"></path>
+            <text font-family="Brezel Grotesk TRIAL" font-size="22" font-weight="normal" fill="#797979">
+                <tspan x="80" y="30">United states</tspan>
+            </text>
+            <text font-family="Brezel Grotesk TRIAL" font-size="22" font-weight="normal" fill="#797979">
+                <tspan x="626" y="30">Canada</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

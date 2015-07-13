@@ -1,0 +1,24 @@
+// =============================================================================
+// MEDIA QUERIES
+// =============================================================================
+
+@function query($min-max, $width) {
+  @if $min-max == 'max' { $width: $width - 1; }
+  @return "(#{$min-max}-width: #{$width})";
+}
+
+$queries: (
+  mobile: query(max, 600px),
+  tablet-down: query(max, 1000px),
+  tablet: "#{query(min, 600px)} and #{query(max, 1000px)}",
+  tablet-up: query(min, 600px),
+  desktop: query(min, 1000px)
+);
+
+@mixin media($query) {
+  $media-query: map-get($queries, $query);
+
+  @media #{$media-query} {
+    @content;
+  }
+}
