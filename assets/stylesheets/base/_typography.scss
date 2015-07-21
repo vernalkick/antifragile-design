@@ -2,9 +2,9 @@
 // TYPOGRAPHY
 // =============================================================================
 
-$font-family--body: 'Whitney', sans-serif;
-$font-family--titles: "Brezel Grotesk 2.0 Regular", 'Whitney', sans-serif;
-$font-family--subtitles: 'Tungsten', sans-serif;
+$font-family--body: 'Whitney A', 'Whitney B', sans-serif;
+$font-family--titles: "Brezel Grotesk 2.0 Regular", 'Whitney A', 'Whitney B', sans-serif;
+$font-family--subtitles: 'Tungsten A', 'Tungsten B', sans-serif;
 
 
 // BODY
@@ -91,4 +91,10 @@ blockquote:before {
   line-height: .8;
   color: rgba(#000, .25);
   font-style: normal;
+}
+
+.uppercase {
+  font-variant: small-caps;
+  font-weight: 600;
+  letter-spacing: .05em;
 }
