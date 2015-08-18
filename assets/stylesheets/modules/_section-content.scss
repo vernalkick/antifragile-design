@@ -10,16 +10,72 @@
   }
 }
 
+.section--alt {
+  background: #eee;
+}
+
 .section--intro {
-  background: mix(black, $color--accent, 10%);
+  background: linear-gradient(0deg, rgba(#222, .75) 20%, rgba(#000, 0) 60%), #333 url('/assets/cocoaheads.jpg') center center;
+  background-size: cover;
   overflow: hidden;
-  color: lighten($color--accent, 30%);
-  font-size: .875em;
-  font-style: italic;
-  padding: 2em 0;
+  color: rgba(#fff, .75);
+  padding: 35% 0 2em;
 
   p {
     margin: 0;
+  }
+}
+
+.section--about-me {
+  background: #333 url('/assets/about-me.png') center center;
+  background-size: cover;
+  color: rgba(#fff, .75);
+}
+
+.about-me {
+  overflow: hidden;
+  padding: 20% 0;
+  padding-right: 25%;
+}
+
+.book-info {
+  padding: 3em 0;
+
+  @include media(tablet-up) {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.book-info__img {
+  width: 170px;
+  flex-shrink: 0;
+  margin-right: 1.5em;
+  box-shadow: 0 2px 4px rgba(#000, .15);
+
+  @include media(mobile) {
+    margin-bottom: 1.5em;
+  }
+}
+
+.actions {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    float: left;
+    margin-right: 1.5em;
+    color: #fff;
+  }
+
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    margin-right: .35em;
   }
 }
 
